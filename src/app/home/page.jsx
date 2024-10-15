@@ -23,16 +23,6 @@ export default function Page() {
 
     return (
         <div className="font-sans">
-            <nav className="flex justify-between items-center px-8 py-6 bg-gray-900 text-white">
-                <div className="text-3xl font-bold">RISE3 Robotics Conference</div>
-                <ul className="flex space-x-8 text-lg">
-                    <li><a href="#" className="hover:text-gray-400">Home</a></li>
-                    <li><a href="#" className="hover:text-gray-400">About</a></li>
-                    <li><a href="#" className="hover:text-gray-400">Speakers</a></li>
-                    <li><a href="#" className="hover:text-gray-400">Schedule</a></li>
-                    <li><a href="#" className="hover:text-gray-400">Contact</a></li>
-                </ul>
-            </nav>
 
             <section className="relative">
                 <Image
@@ -47,7 +37,7 @@ export default function Page() {
                     <h1 className="text-5xl font-bold mb-4">RISE3 Robotics Conference</h1>
                     <p className="text-2xl mb-6">30th March 2025</p>
                     <p className="text-xl mb-8">Largest Student Run Robotics Symposium</p>
-                    <a href="#" className="px-8 py-4 bg-yellow-500 text-black rounded-md font-semibold hover:bg-yellow-600">Register Your Interest</a>
+                    <a href="#" className="px-8 py-4 bg-blue-500 text-black rounded-md font-semibold hover:bg-blue-600">Register Your Interest</a>
                 </div>
             </section>
 

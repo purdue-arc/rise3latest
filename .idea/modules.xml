@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RISE3-Latest.iml" filepath="$PROJECT_DIR$/.idea/RISE3-Latest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rise3latest/.idea/rise3latest.iml" filepath="$PROJECT_DIR$/../rise3latest/.idea/rise3latest.iml" />
     </modules>
   </component>
 </project>

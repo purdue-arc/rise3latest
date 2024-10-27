@@ -10,7 +10,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { useRouter } from "next/navigation";
 import { Dialog, DialogOverlay, DialogContent } from '@/components/ui/dialog';
-import { useInView } from 'react-intersection-observer'; // Install this if not already
+import { useInView } from 'react-intersection-observer';
 
 // Sample Events Data: 9 events per day for Monday-Friday (45 events total)
 const eventsData = [

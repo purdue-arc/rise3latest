@@ -55,8 +55,10 @@ export default function Page() {
           <p className="text-2xl mb-6">30th March 2025</p>
           <p className="text-xl mb-8">Largest Student Run Robotics Symposium</p>
           <a
-            href="#"
-            className="px-8 py-4 bg-blue-500 text-black rounded-md font-semibold hover:bg-blue-600"
+              href="https://riseforms.purduearc.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-blue-500 text-black rounded-md font-semibold hover:bg-blue-600"
           >
             Register Your Interest
           </a>

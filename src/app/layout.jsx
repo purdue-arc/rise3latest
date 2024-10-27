@@ -1,5 +1,5 @@
 import "./globals.css";
-import {NavigationMenu} from "@/components/ui/navigation-menu";
+import { NavigationMenu } from "@/components/ui/navigation-menu";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
 export default function RootLayout({ children }) {

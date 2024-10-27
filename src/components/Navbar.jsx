@@ -16,10 +16,10 @@ export default function Navbar() {
             RISE3 Robotics Conference
           </div>
           <ul className="flex space-x-8">
-            <li className="relative nav-item">
+            <li className="relative nav-item group"> {/* Add group class here */}
               <button
                   onClick={handleDropdownToggle}
-                  className="text-white hover:text-gray-200 text-lg focus:outline-none"
+                  className="flex items-center justify-center relative text-white text-lg focus:outline-none border border-transparent group-hover:border-black transition duration-200 rounded-md px-4 py-2"
               >
                 About
               </button>
@@ -56,8 +56,11 @@ export default function Navbar() {
                   </ul>
               )}
             </li>
-            <li className="nav-item">
-              <a href="/contact" className="text-white hover:text-gray-200 text-lg">
+            <li className="nav-item group"> {/* Add group class here */}
+              <a
+                  href="/contact"
+                  className="flex items-center justify-center relative text-white text-lg border border-transparent group-hover:border-black transition duration-200 rounded-md px-4 py-2"
+              >
                 Contact
               </a>
             </li>

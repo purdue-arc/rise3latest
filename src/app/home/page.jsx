@@ -33,8 +33,7 @@ export default function Page() {
           alt="RISE3 Conference"
           className="w-full h-auto object-cover"
         />
-        <div
-            className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center text-white bg-black bg-opacity-50">
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center text-white bg-black bg-opacity-50">
           <h1 className="text-5xl font-bold mb-4">RISE3 Robotics Conference</h1>
           <p className="text-2xl mb-6">30th March 2025</p>
           <p className="text-xl mb-8">Largest Student Run Robotics Symposium</p>

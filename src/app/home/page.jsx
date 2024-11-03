@@ -8,9 +8,7 @@ export default function Page() {
   const [backgroundImageIndex, setBackgroundImageIndex] = useState(0);
   const backgroundImages = [
     "/RISE3PhotoTest.png",
-    "/RISE3PhotoTest.png",
-    "/RISE3PhotoTest.png",
-    "/RISE3PhotoTest.png",
+    "/rise3photo2.png"
   ];
 
   useEffect(() => {
@@ -26,7 +24,7 @@ export default function Page() {
   const [carouselSection, setCarouselSection] = useState(0);
   const carouselSectionImgs = [
     "/RISE3PhotoTest.png",
-    "/RISE3PhotoTest.png",
+      "/rise3photo2.png"
   ]
   const handleNext = () => {
     
@@ -42,7 +40,7 @@ export default function Page() {
       <div className="font-sans">
         <section className="relative">
           <Image
-              src={backgroundImages[0]}
+              src={backgroundImages[1]}
               layout="responsive"
               width={1600}
               height={900}
@@ -87,13 +85,14 @@ export default function Page() {
 
 
         <div className="flex justify-center items-center mt-12 relative">
+          {/*
           <button
               onClick={handlePrev}
               className="bg-gray-800 text-white p-4 rounded-full absolute left-4 top-1/2 transform -translate-y-1/2 hover:bg-gray-700"
           >
             ❮
           </button>
-
+*/}
 
           {/*  <div className="w-3/4 md:w-1/2 h-96 overflow-hidden rounded-lg flex justify-center items-center">
             <Image
@@ -105,13 +104,14 @@ export default function Page() {
             />
           </div>
         */}
-
+          {/*
           <button
               onClick={handleNext}
               className="bg-gray-800 text-white p-4 rounded-full absolute right-4 top-1/2 transform -translate-y-1/2 hover:bg-gray-700"
           >
             ❯
           </button>
+          */}
         </div>
 
 

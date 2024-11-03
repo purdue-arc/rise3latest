@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import Link from "next/link";
 export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -12,9 +12,9 @@ export default function Navbar() {
   return (
       <nav className="bg-blue-600 p-4 pt-6 sticky -top-2 z-50">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white text-2xl font-bold">
+          <Link href="/home" className="text-white text-2xl font-bold">
             RISE3 Robotics Conference
-          </div>
+          </Link>
           <ul className="flex space-x-8">
             <li className="relative nav-item group"> {/* Add group class here */}
               <button

@@ -84,4 +84,20 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
+
+
+        @keyframes slowZoom {
+          from {
+            transform: scale(1);
+          }
+          to {
+            transform: scale(1.1);
+          }
+        }
+        
+        .slow-zoom {
+          animation: slowZoom 2s ease-in-out forwards ;
+        }
+    

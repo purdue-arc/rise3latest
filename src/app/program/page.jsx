@@ -1,5 +1,9 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Page() {
-    return (<div>Program page</div>)
+    return (
+        <Link href="/about/#timeline"></Link>
+    );
 }

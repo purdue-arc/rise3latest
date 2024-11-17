@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Twitter, Linkedin, Github, Mail } from 'lucide-react';
-
+import Link from 'next/link';
 const Footer = () => {
     return (
         <footer className="bg-neutral-800 py-8 text-neutral-400 text-center">
@@ -32,10 +32,10 @@ const Footer = () => {
                 <div className="mb-4">
                     <p className="text-neutral-400">&copy; 2024 RISE | Robotics and Intelligent Systems Expo</p>
                     <nav className="flex justify-center space-x-6 mt-4">
-                        <a href="/about" className="hover:text-blue-500">About</a>
-                        <a href="/program" className="hover:text-blue-500">Program</a>
-                        <a href="/registration" className="hover:text-blue-500">Registration</a>
-                        <a href="/sponsorship" className="hover:text-blue-500">Sponsorship</a>
+                        <Link href="/about" className="hover:text-blue-500">About</Link>
+                        <Link href="/about/#timeline" className="hover:text-blue-500">Program</Link>
+                        <Link href="http://riseforms.purduearc.com" className="hover:text-blue-500">Registration</Link>
+                        <Link href="/sponsorship" className="hover:text-blue-500">Sponsorship</Link>
                     </nav>
                 </div>
 

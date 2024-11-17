@@ -335,6 +335,7 @@ const AboutPage = () => {
                 <div className="flex justify-center space-x-4">
                     <button
                         onClick={() => handleViewToggle("full")}
+                        id='timeline'
                         className={`px-4 py-2 rounded-md ${
                             viewMode === "full"
                                 ? "bg-blue-600 text-white"
